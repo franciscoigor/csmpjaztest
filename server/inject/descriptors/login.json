@@ -57,6 +57,11 @@
       "type": "string",
       "selector": ".field-validation-error[data-valmsg-for=\"Password\"]",
       "control": "property.innerText"
+    },
+    "IsLogin": {
+      "type": "identifier",
+      "selector": ".btn[value=\"Log In\"]",
+      "control": "exists"
     }
   },
   "connect": []
