@@ -60,7 +60,7 @@
     },
     "IsLogin": {
       "type": "identifier",
-      "selector": ".btn[value=\"Log In\"]",
+      "selector": ".btn[value=\"Log in\"]",
       "control": "exists"
     }
   },
