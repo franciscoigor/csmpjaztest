@@ -64,5 +64,14 @@
       "control": "exists"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "IsLogin"
+      ],
+      "screens": [
+        "login"
+      ]
+    }
+  ]
 }
