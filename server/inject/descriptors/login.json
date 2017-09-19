@@ -31,7 +31,9 @@
       "label": "errorMessage",
       "update": {
         "type": "none"
-      }
+      },
+      "selector": ".validation-summary-errors",
+      "control": "property.innerText"
     },
     "submit": {
       "type": "action",
@@ -43,6 +45,16 @@
           "type": "string"
         }
       }
+    },
+    "errorMessageUser": {
+      "type": "string",
+      "selector": ".field-validation-error[data-valmsg-for=\"UserName\"]",
+      "control": "property.innerHTML"
+    },
+    "errorMessagePassword": {
+      "type": "string",
+      "selector": ".field-validation-error[data-valmsg-for=\"Password\"]",
+      "control": "property.innerText"
     }
   },
   "connect": []
