@@ -44,7 +44,9 @@
         "password": {
           "type": "string"
         }
-      }
+      },
+      "selector": ".btn[type=\"submit\"]",
+      "control": "action.button"
     },
     "errorMessageUser": {
       "type": "string",
